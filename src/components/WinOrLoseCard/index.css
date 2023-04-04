@@ -1,0 +1,40 @@
+.won-lose-image {
+  width: 30%;
+}
+
+.win-details-card {
+  width: 50%;
+}
+.win-loose-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.best-score-card {
+  width: 95%;
+}
+
+.best-score-el {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.score-el {
+  font-family: 'Roboto';
+  color: #6a59ff;
+  font-weight: bold;
+}
+
+.button {
+  min-height: 30px;
+  min-width: 90px;
+  max-width: 100px;
+  max-height: 35px;
+  background-color: #ffce27;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

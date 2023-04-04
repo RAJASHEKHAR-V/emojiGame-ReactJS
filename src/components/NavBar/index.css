@@ -1,0 +1,19 @@
+.score-card {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.score-emoji {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.top-score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 10px;
+}
