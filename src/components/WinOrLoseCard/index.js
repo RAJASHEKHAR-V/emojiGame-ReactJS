@@ -4,10 +4,15 @@ const WinOrLoseCard = props => {
   const {score, jumbledList, onPlayAgainButton} = props
   const isWin =
     score === jumbledList.length
-      ? ['You Won', 'https://assets.ccbp.in/frontend/react-js/won-game-img.png']
+      ? [
+          'You Won',
+          'https://assets.ccbp.in/frontend/react-js/won-game-img.png',
+          'Best Score',
+        ]
       : [
           'You Lose',
           'https://assets.ccbp.in/frontend/react-js/lose-game-img.png',
+          'Score',
         ]
   //   const onClickPlay = () => {
   //     onPlayAgainButton()
@@ -18,7 +23,7 @@ const WinOrLoseCard = props => {
       <div className="win-details-card">
         <h1 className="win-loose-heading">{isWin[0]}</h1>
         <div className="best-score-card">
-          <p className="best-score-el">Best Score</p>
+          <p className="best-score-el">{isWin[2]}</p>
           <p className="score-el">
             {score}/{jumbledList.length}
           </p>
@@ -29,7 +34,7 @@ const WinOrLoseCard = props => {
           </button>
         </div>
       </div>
-      <img src={isWin[1]} className="won-lose-image" alt="won-game" />
+      <img src={isWin[1]} className="won-lose-image" alt="win or lose" />
     </>
   )
 }

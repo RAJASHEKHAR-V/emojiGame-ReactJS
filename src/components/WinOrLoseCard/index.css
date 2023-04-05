@@ -1,9 +1,8 @@
-.won-lose-image {
-  width: 30%;
-}
-
 .win-details-card {
-  width: 50%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .win-loose-heading {
   font-family: 'Roboto';
@@ -12,7 +11,8 @@
 }
 
 .best-score-card {
-  width: 95%;
+  width: 50%;
+  text-align: center;
 }
 
 .best-score-el {
@@ -37,4 +37,8 @@
   outline: none;
   cursor: pointer;
   border: none;
+}
+
+.won-lose-image {
+  width: 38%;
 }

@@ -84,7 +84,7 @@ class EmojiGame extends Component {
               className="emoji-logo"
               alt="emoji logo"
             />
-            <p className="emoji-game-el">Emoji Game</p>
+            <h1 className="emoji-game-el">Emoji Game</h1>
           </div>
           {isEmojiMatched ? (
             <NavBar key="nav-bar" score={score} totalScore={totalScore} />
@@ -93,7 +93,7 @@ class EmojiGame extends Component {
           )}
         </div>
         {isEmojiMatched ? (
-          <div className="Emoji-body">
+          <ul className="Emoji-body">
             {jumbledList.map(eachEmoji => (
               <EmojiCard
                 key={eachEmoji.id}
@@ -101,7 +101,7 @@ class EmojiGame extends Component {
                 onClickOfEmoji={this.onClickOfEmoji}
               />
             ))}
-          </div>
+          </ul>
         ) : (
           ''
         )}
