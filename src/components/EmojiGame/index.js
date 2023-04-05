@@ -46,23 +46,12 @@ class EmojiGame extends Component {
   onPlayAgainButton = () => {
     const {score, totalScore} = this.state
     const addGreaterScore = score > totalScore ? score : totalScore
-    const {emojisList} = this.props
-
-    if (score === emojisList.length) {
-      this.setState(prevState => ({
-        score: 0,
-        totalScore: 0,
-        isEmojiMatched: !prevState.isEmojiMatched,
-        idsList: [],
-      }))
-    } else {
-      this.setState(prevState => ({
-        score: 0,
-        totalScore: addGreaterScore,
-        isEmojiMatched: !prevState.isEmojiMatched,
-        idsList: [],
-      }))
-    }
+    this.setState(prevState => ({
+      score: 0,
+      totalScore: addGreaterScore,
+      isEmojiMatched: !prevState.isEmojiMatched,
+      idsList: [],
+    }))
   }
 
   shuffledEmojisList = () => {
