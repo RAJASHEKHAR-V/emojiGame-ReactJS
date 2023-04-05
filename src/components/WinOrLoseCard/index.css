@@ -8,6 +8,7 @@
   font-family: 'Roboto';
   color: #ffffff;
   font-weight: bold;
+  text-align: center;
 }
 
 .best-score-card {
@@ -19,12 +20,15 @@
   font-family: 'Roboto';
   color: #ffffff;
   font-weight: bold;
+  margin: auto;
 }
 
 .score-el {
   font-family: 'Roboto';
   color: #6a59ff;
   font-weight: bold;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -37,6 +41,9 @@
   outline: none;
   cursor: pointer;
   border: none;
+  font-family: 'Roboto';
+  color: #3d3d3d;
+  font-weight: bold;
 }
 
 .won-lose-image {

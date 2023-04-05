@@ -90,22 +90,23 @@
   }
   .emoji-item {
     width: 28%;
-    height: 100px;
+    height: 115px;
   }
 
   .image-button {
-    width: 100%;
+    width: 90%;
     height: 100px;
   }
   .Emoji {
-    width: 45%;
+    width: 40%;
+    height: 80%;
   }
 
   .win-details-card {
     width: 95%;
   }
   .win-loose-heading {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .best-score-card {
@@ -113,11 +114,11 @@
   }
 
   .best-score-el {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .score-el {
-    font-size: 12px;
+    font-size: 22px;
   }
 
   .button {
@@ -148,11 +149,11 @@
   }
 
   .best-score-el {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .score-el {
-    font-size: 18px;
+    font-size: 28px;
   }
 
   .button {

@@ -2,6 +2,9 @@ import './index.css'
 
 const WinOrLoseCard = props => {
   const {score, jumbledList, onPlayAgainButton} = props
+  const onPlay = () => {
+    onPlayAgainButton()
+  }
   const isWin =
     score === jumbledList.length
       ? [
@@ -29,7 +32,7 @@ const WinOrLoseCard = props => {
           </p>
         </div>
         <div>
-          <button className="button" type="submit" onClick={onPlayAgainButton}>
+          <button className="button" type="submit" onClick={onPlay}>
             Play Again
           </button>
         </div>
